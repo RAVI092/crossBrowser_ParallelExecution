@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="20204" started-at="2020-09-28T11:59:38 IST" finished-at="2020-09-28T11:59:58 IST">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner.Runner1@67205a84]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner.Runner1@6acdbdf5]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test name="Test" duration-ms="20204" started-at="2020-09-28T11:59:38 IST" finished-at="2020-09-28T11:59:58 IST">
+      <class name="Runner.Runner1">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:Runner.Runner1@67205a84]" name="setUpClass" is-config="true" duration-ms="340" started-at="2020-09-28T11:59:38 IST" finished-at="2020-09-28T11:59:38 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="m1(java.lang.String)[pri:0, instance:Runner.Runner1@67205a84]" name="m1" is-config="true" duration-ms="11279" started-at="2020-09-28T11:59:38 IST" finished-at="2020-09-28T11:59:50 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- m1 -->
+        <test-method status="PASS" signature="m1(java.lang.String)[pri:0, instance:Runner.Runner1@67205a84]" name="m1" is-config="true" duration-ms="11582" started-at="2020-09-28T11:59:38 IST" finished-at="2020-09-28T11:59:50 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- m1 -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner.Runner1@67205a84]" name="runScenario" duration-ms="8509" started-at="2020-09-28T11:59:50 IST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2020-09-28T11:59:58 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["login with in-valid data"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["FlipKart login validation"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner.Runner1@67205a84]" name="runScenario" duration-ms="6682" started-at="2020-09-28T11:59:50 IST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2020-09-28T11:59:57 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["login with valid data"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["FlipKart login validation"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:Runner.Runner1@67205a84]" name="tearDownClass" is-config="true" duration-ms="2" started-at="2020-09-28T11:59:58 IST" finished-at="2020-09-28T11:59:58 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- Runner.Runner1 -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
